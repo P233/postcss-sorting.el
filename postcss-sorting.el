@@ -1,5 +1,7 @@
 ;;; postcss-sorting.el --- postcss-sorting interface
 
+;; Copyright (C) 2017 Peiwen Lu
+
 ;; Author: Peiwen Lu <hi@peiwen.lu>
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24"))
