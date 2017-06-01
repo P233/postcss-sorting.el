@@ -72,7 +72,7 @@
                                ("less" "-s postcss-less")
                                ("sss"  "-s sugarss")
                                (_ ""))
-                             (concat "-c " postcss-sorting-config-file)) " "))
+                             (concat "-c " (shell-quote-argument (expand-file-name postcss-sorting-config-file)))) " "))
 
 
 (defun postcss-sorting--call (cur-buffer output-buffer-name extension)
