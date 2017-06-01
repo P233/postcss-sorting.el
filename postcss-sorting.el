@@ -101,7 +101,7 @@
     (postcss-sorting--call (current-buffer) output-buffer-name (file-name-extension buffer-file-name))
     (goto-char cur-point)
     (set-window-start (selected-window) cur-win-start))
-  (message "Sortted buffer with postcss-sorting."))
+  (message "Sorted buffer with postcss-sorting."))
 
 
 
